@@ -176,7 +176,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
+    font-family: {{ site.data.template.font.primary }}
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -335,12 +336,22 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 15px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+
+}
+
+section a.section-para {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
 }
 
 @media(min-width:768px) {
@@ -431,7 +442,15 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+section#about {
+    background-color: #242021;
 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section#about .section-heading {
+    color: #fff;
+}
 .timeline {
     position: relative;
     padding: 0;
