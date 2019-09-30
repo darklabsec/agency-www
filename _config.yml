@@ -42,8 +42,8 @@ social:
    # url: http://stackoverflow.com/questions/tagged/..
   - title: linkedin
     url: http://linkedin.com/company/darklab-security
-  - title: github
-    url: http://github.com/darklabsec
+ #-  - title: github
+   #-  url: http://github.com/darklabsec
 
 # Postal address (add as many lines as necessary)
 address:
