@@ -11,7 +11,7 @@ description: "Cybersecurity consulting Penetration Testing Web Application Penet
 people:
 - name: 
   pic: 1
-  position: Lead
+  position: 
   social:
     - title: linkedin
       url: #
@@ -22,7 +22,7 @@ people:
 
 - name: people
   pic: 2
-  position: Lead Marketer
+  position: 
   social:
     - title: twitter
       url: #
@@ -35,13 +35,13 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   #- title: twitter
-   # url: http://twitter.com/jekyllrb
+   # url: http://twitter.com/..
   #- title: facebook
    # url:
   #- title: stack-overflow
-   # url: http://stackoverflow.com/questions/tagged/jekyll
+   # url: http://stackoverflow.com/questions/tagged/..
   - title: linkedin
-    url: http://linkedin.com/darklab-security
+    url: http://linkedin.com/company/darklab-security
   - title: github
     url: http://github.com/darklabsec
 
