@@ -1,57 +1,22 @@
-url: ""
-baseurl: ""
-
 # Site settings
 title: DarkLab Security
 email: info@darklabsecurity.com
-description: "Cybersecurity consulting Penetration Testing Web Application Penetration Testing Red Team Red Teaming External Network Penetration Testing Internal Network Penetration Testing DevOps DevSecOps SecDevOps Application Security Secure Development Lifecycle Incident Response Forensics Adversary Emulation Vulnerability Management CISO vCISO CHECK CREST ISO27001 Risk management "
+url: https://www.darklabsecurity.com
+description: "DarkLab Security provides cyber advisory and assurance services based on deep security industry experience and a network of trusted cyber experts."
 
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#fff'
 
-# Team names, titles and social links
-people:
-- name: 
-  pic: 1
-  position: 
-  social:
-    - title: linkedin
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: people
-  pic: 2
-  position: 
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
+# Footer settings
+footer: DarkLab Security
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  #- title: twitter
-   # url: http://twitter.com/..
-  #- title: facebook
-   # url:
-  #- title: stack-overflow
-   # url: http://stackoverflow.com/questions/tagged/..
   - title: linkedin
     url: http://linkedin.com/company/darklab-security
- #-  - title: github
-   #-  url: http://github.com/darklabsec
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 123 the place
-  - line: another place
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude:
-  - .jekyll-cache
